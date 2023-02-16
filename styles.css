@@ -6,7 +6,7 @@ body {
   width: 375px;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,7 @@ main {
   margin-top: 40px;
 }
 
-#sec h2 {
+#sec h1 {
   font-weight: 700;
   height: 150px;
   font-size: 40px;
