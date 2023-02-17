@@ -147,6 +147,8 @@ nav {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-project {
@@ -220,7 +222,7 @@ nav {
   margin-top: 0;
 }
 
-#sec3 h1 {
+#sec3 h2 {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
