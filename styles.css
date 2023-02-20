@@ -106,9 +106,6 @@ nav {
 
 #img-svg ul {
   list-style: none;
-  display: flex;
-  align-items: center;
-  align-content: center;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -124,6 +121,7 @@ nav {
   border-radius: 8px;
   margin-right: 10px;
   margin-left: 0;
+  float: left;
 }
 
 #img-svg li {
