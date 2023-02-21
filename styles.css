@@ -360,4 +360,14 @@ main {
 .bs button {
   margin-top: 0;
   margin-left: 10px;
+  color: #6070ff;
+}
+
+.bs button:hover {
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px #283df9;
+}
+
+.bs button:active {
+  background-color: #2230d2;
 }
