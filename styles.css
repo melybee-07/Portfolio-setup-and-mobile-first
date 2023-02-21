@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 375px;
 }
@@ -294,60 +294,57 @@ main {
   height: 779px;
   width: 375px;
   padding-top: 50px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   background-image: url("/image-sec-form/contact\ form\ shapes-mobile@2x.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-  
-
-  
 }
 #form-section h2 {
   font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 0;
-
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 #form-section p {
   font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #EBEBFF;
-    padding: 20px;
-    padding-top: 0;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding: 20px;
+  padding-top: 0;
 }
 .bs ul {
   list-style: none;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   padding: 0;
 }
 .bs li {
   padding: 10px;
+  text-align: start;
 }
 .bs input {
-  border: 1px solid #CFD8DC;
-    border-radius: 4px;
-    background: #FFFFFF;
-    width: 300px;
-    height:30px;
-    color: #172B4D;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  background: #ffffff;
+  width: 300px;
+  height: 30px;
+  color: #172b4d;
 }
 .bs textarea {
-  border: 1px solid #CFD8DC;
-    border-radius: 4px;
-    background: #FFFFFF;
-    width: 300px;
-    height: 150px;
-    color: #172B4D;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  background: #ffffff;
+  width: 300px;
+  height: 150px;
+  color: #172b4d;
 }
