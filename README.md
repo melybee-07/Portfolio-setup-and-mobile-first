@@ -35,43 +35,38 @@
 
 # 📖 [Portfolio-Setup-and-mobile-first] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Portfolio-Setup-and-mobile-first]** is a a web project that consists of building my first Portfolio in the mobile view using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Linters</li>
+  <li>Figma</li>
+</ul>
+
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config">Linters</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css">HTML</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css">CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-- **[Added Html]**
-- **[Added CSS]**
+- **[build a header section]**
+- **[build a work section]**
+- **[build a About me section]**
+- **[build a contact me section ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,7 +91,7 @@
 
 In order to run this project you need:
 
-have accese to the figma template for this project
+have accese to the figma template for this project and a browser to run the html file.
 
 
 ### Setup
@@ -109,7 +104,11 @@ git clone git@github.com:melybee-07/Portfolio-setup-and-mobile-first.git
 
 Install this project with:
 
-you need to install the Linters for the HTML and CSS Documents
+<ul>
+  <li>you need to install the Linters for the  <a href="https://github.com/microverseinc/linters-config/tree/master/html-css">HTML & CSS </a> Documents</li>
+  <li>Open your command prompt or terminal and run : git clone <a href="https://github.com/melybee-07/Portfolio-setup-and-mobile-first.git"></a> https://github.com/melybee-07/Portfolio-setup-and-mobile-first.git</li>
+</ul>
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,7 +117,6 @@ you need to install the Linters for the HTML and CSS Documents
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -138,10 +136,9 @@ you need to install the Linters for the HTML and CSS Documents
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[added html]**
-- [ ] **[added css]**
+- [ ] **[Setup and mobile version skeleton]**
+- [ ] **[mobile view]**
+- [ ] **[build a contact with pair programing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +157,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project please feel free to contact me
+If you like this project please feel free to give a ⭐️ to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
