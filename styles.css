@@ -104,6 +104,14 @@ nav {
   margin-left: 20px;
 }
 
+.bs ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
 #img-svg ul {
   display: flex;
   flex-direction: row;
@@ -126,6 +134,11 @@ nav {
   margin-right: 10px;
   margin-left: 0;
   float: left;
+}
+
+.bs li {
+  padding: 10px;
+  text-align: start;
 }
 
 #img-svg li {
@@ -287,9 +300,11 @@ nav {
   top: 5px;
   left: 9px;
 }
+
 main {
   margin-bottom: 500px;
 }
+
 #form-section {
   height: 779px;
   width: 375px;
@@ -303,15 +318,17 @@ main {
   align-items: center;
   align-content: center;
 }
+
 #form-section h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 0;
 }
+
 #form-section p {
   font-weight: 400;
   font-size: 20px;
@@ -321,29 +338,20 @@ main {
   padding: 20px;
   padding-top: 0;
 }
-.bs ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-}
-.bs li {
-  padding: 10px;
-  text-align: start;
-}
+
 .bs input {
   border: 1px solid #cfd8dc;
   border-radius: 4px;
-  background: #ffffff;
+  background: #fff;
   width: 300px;
   height: 30px;
   color: #172b4d;
 }
+
 .bs textarea {
   border: 1px solid #cfd8dc;
   border-radius: 4px;
-  background: #ffffff;
+  background: #fff;
   width: 300px;
   height: 150px;
   color: #172b4d;
