@@ -356,3 +356,7 @@ main {
   height: 150px;
   color: #172b4d;
 }
+.bs button {
+  margin-top: 0;
+  margin-left: 10px;
+}
