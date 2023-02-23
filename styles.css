@@ -47,13 +47,15 @@ nav {
   justify-content: space-around;
   margin-right: 0.5rem;
 }
+
 #navigation-bar {
   display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
-  display: none;
   margin-right: 55px;
 }
+
 #navigation-bar a {
   text-decoration: none;
   color: #344563;
@@ -193,6 +195,7 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
 .work-card:hover {
   box-shadow: 1px 8px 16px #9fe9ff;
 }
@@ -202,8 +205,9 @@ nav {
   height: 15rem;
   border-radius: 0.5rem;
   margin: 0.938rem;
-  padding: 1rem 0rem;
+  padding: 1rem 0;
 }
+
 .img-project-website {
   display: none;
 }
@@ -232,9 +236,11 @@ nav {
 .frame .CANO {
   color: #344563;
 }
+
 .left-block {
   padding-left: 1.6rem;
 }
+
 .list-removing {
   display: none;
 }
@@ -418,18 +424,23 @@ main {
   body {
     width: 1640px;
   }
+
   nav {
     width: 100%;
   }
+
   #mylogo {
     font-size: 20px;
   }
+
   #humberger-bottun {
     display: none;
   }
+
   #navigation-bar {
     display: flex;
   }
+
   #sec1 {
     width: 80%;
     background-image: url("/img4/Header\ bg.png");
@@ -439,6 +450,7 @@ main {
     margin: 30px auto;
     height: 570px;
   }
+
   #sec1 h1 {
     font-size: 48px;
     margin-left: 200px;
@@ -446,6 +458,13 @@ main {
     line-height: 60px;
     margin-bottom: 0;
   }
+
+  .left-block p {
+    font-size: 16px;
+    width: 94%;
+    margin-right: 4px;
+  }
+
   #sec1 p {
     margin-top: 0;
     margin-left: 200px;
@@ -453,24 +472,35 @@ main {
     font-size: 20px;
     line-height: 30px;
   }
+
   #connect {
     margin-left: 200px;
     font-size: 20px;
   }
+
   #img-svg {
     margin-left: 200px;
   }
+
+  .left-block li {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+  }
+
   #img-svg li {
     margin-right: 8px;
   }
+
   #img-svg img {
     width: 27px;
   }
+
   #sec2 {
     width: 100%;
     background: #e5e5e5;
     padding-right: 35px;
   }
+
   .work-card {
     display: flex;
     flex-direction: row;
@@ -481,66 +511,73 @@ main {
     margin: 10px auto;
     margin-bottom: 80px;
   }
+
   .img-project {
     width: 544px;
     height: 448px;
     padding-left: 20px;
     transition: transform 0.5s ease-out;
   }
+
   .img-project:hover {
     transform: scale(0.7);
   }
+
   .mobile-img {
     display: none;
   }
+
   .img-project-website {
     display: flex;
   }
+
   .left-block {
     margin-top: -90px;
   }
+
   .left-block h2 {
     font-size: 40px;
   }
+
   .frame span {
     font-size: 18px;
   }
-  .left-block p {
-    font-size: 16px;
-    width: 94%;
-    margin-right: 4px;
-  }
+
   .list-removing {
     display: flex;
   }
+
   .left-block ul {
     margin-bottom: 21px;
   }
-  .left-block li {
-    font-size: 16px;
-    padding: 0.5rem 1rem;
-  }
+
   button {
     width: 142px;
     height: 48px;
   }
+
   .card1 {
     order: 3;
   }
+
   .card2 {
     order: 4;
     flex-direction: row-reverse;
   }
+
   .card3 {
     order: 1;
   }
+
   .card4 {
     order: 2;
     flex-direction: row-reverse;
   }
+
   .card4 .img-project {
     padding-right: 20px;
   }
+
   .card2 .img-project {
     padding-right: 20px;
   }
@@ -548,44 +585,53 @@ main {
   #form-section {
     width: 100%;
     background-image: url("/img4/contact\ form-\ background-shape-desktop.svg");
-
+    background-image: url("/img4/contact\ form\ background\ shapes@2x.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/img4/contact\ form\ background\ shapes@2x.png");
     padding-right: 43px;
     padding-bottom: 30px;
   }
+
   .aS {
     text-align: center;
   }
+
   #form-section h2 {
     font-size: 40px;
   }
+
   #form-section p {
     font-size: 20px;
     width: 38%;
     margin: 10px auto;
   }
+
   #form-section p:hover {
     transform: translate(20px);
   }
+
   .bs {
     font-size: 17px;
   }
+
   .bs ul {
     margin-bottom: 0;
   }
+
   .bs input {
     width: 447px;
     height: 48px;
   }
+
   .bs textarea {
     width: 447px;
     height: 170px;
   }
+
   .bs button {
-    margin: 0px 200px;
+    margin: 0 200px;
   }
+
   .bs button:hover {
     box-shadow: 0 8px 16px rgba(215, 219, 247, 0.24);
     border-color: #cfd8dc;
