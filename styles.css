@@ -477,6 +477,10 @@ main {
   width: 544px;
     height: 448px;
     padding-left: 20px;
+    transition: transform 0.5s ease-out;
+ }
+ .img-project:hover{
+  transform: scale(0.7);
  }
  .mobile-img {
   display: none;
@@ -554,6 +558,11 @@ main {
   font-size: 20px;
   width: 38%;
   margin: 10px auto;
+  
+  
+ }
+ #form-section p:hover{
+  transform: translate(20px);
   
  }
  .bs {
