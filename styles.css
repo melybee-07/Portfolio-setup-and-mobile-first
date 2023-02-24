@@ -1,14 +1,14 @@
-html {
+html{
   font-size: 10px;
   overflow-x: hidden;
 }
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 100%;
+  
 }
 
 nav {
@@ -203,7 +203,7 @@ nav {
 }
 
 .work-card {
-  width: 70%;
+  width: 40rem;
   height: 64rem;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -220,13 +220,12 @@ nav {
 }
 
 .img-project {
-  width: 90%;
+  width: 37.6rem;
   height: 24rem;
   border-radius: 0.8rem;
   margin: 1.5rem;
   padding: 1.6rem 0;
   transition: transform 0.5s ease-out;
-  margin-left: 0;
 }
 
 .img-project:hover {
@@ -383,7 +382,7 @@ main {
   padding-top: 5rem;
   background-color: #6070ff;
   background-image: url("/image-sec-form/contact\ form\ shapes-mobile@2x.svg");
-  width: 100%;
+  width:100%;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -449,11 +448,10 @@ main {
 }
 
 @media (min-width: 76.8rem) {
-  html {
+  html{
     width: 100%;
     overflow-x: hidden;
   }
-
   body {
     width: 100%;
   }
@@ -753,3 +751,5 @@ main {
     border-color: #cfd8dc;
   }
 }
+
+
