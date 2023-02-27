@@ -77,7 +77,7 @@
 
 
 
-- Comming soon[]()
+<a href="https://melybee-07.github.io/Portfolio-setup-and-mobile-first/">https://melybee-07.github.io/Portfolio-setup-and-mobile-first/</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
