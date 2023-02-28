@@ -748,8 +748,8 @@ main {
   }
 
   .bs button:hover {
-    box-shadow: 0 8px 16px rgba(215, 219, 247, 0.24);
-    border-color: #cfd8dc;
+    box-shadow: 0 8px 16px #d7dbf73d;
+    border-color: #061319;
   }
 
   #user-name-label {
