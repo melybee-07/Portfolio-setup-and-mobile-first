@@ -136,7 +136,7 @@ nav {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color: #7f8cff;
+  color: #5867ee;
   text-decoration: none;
 }
 
@@ -435,16 +435,16 @@ main {
 .bs button {
   margin-top: 0;
   margin-left: 1rem;
-  color: #6070ff;
+  color: #5766ea;
 }
 
 .bs button:hover {
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px #283df9;
+  background-color: #5766ea;
+  box-shadow: 0 8px 16px #3a4ad9;
 }
 
 .bs button:active {
-  background-color: #2230d2;
+  background-color: #3a4ad9;
 }
 
 @media (min-width: 76.8rem) {
@@ -748,7 +748,19 @@ main {
   }
 
   .bs button:hover {
-    box-shadow: 0 8px 16px rgba(215, 219, 247, 0.24);
-    border-color: #cfd8dc;
+    box-shadow: 0 8px 16px #d7dbf73d;
+    border-color: #061319;
+  }
+
+  #user-name-label {
+    display: none;
+  }
+
+  #user-email-label {
+    display: none;
+  }
+
+  #user-message-label {
+    display: none;
   }
 }
