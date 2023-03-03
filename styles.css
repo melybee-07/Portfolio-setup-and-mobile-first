@@ -9,7 +9,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 100%;
-  
 }
 
 nav {
@@ -196,7 +195,7 @@ nav {
 
 #sec2 {
   width: 100%;
-  padding-left:7rem;
+  padding-left: 7rem;
   padding-top: 15rem;
   background: #e5e5e5;
   display: grid;
@@ -447,6 +446,7 @@ main {
 .bs button:active {
   background-color: #3a4ad9;
 }
+
 #user-name-label {
   display: none;
 }
@@ -458,6 +458,7 @@ main {
 #user-message-label {
   display: none;
 }
+
 @media (min-width: 76.8rem) {
   html {
     width: 100%;
@@ -519,7 +520,6 @@ main {
     font-size: 2rem;
     line-height: 3rem;
     height: 12rem;
-    
   }
 
   #connect {
@@ -534,7 +534,6 @@ main {
   .left-block li {
     font-size: 1.3rem;
     padding: 0.8rem 1.6rem;
-    
   }
 
   #img-svg li {
@@ -571,7 +570,7 @@ main {
   }
 
   .img-project {
-    width:50%;
+    width: 50%;
     height: 35rem;
     padding-left: 2rem;
   }
@@ -586,6 +585,7 @@ main {
 
   .left-block {
     margin-top: -1rem;
+
     /* margin-left: 80rem; */
   }
 
@@ -674,7 +674,6 @@ main {
   .top-fram #connect {
     margin-left: 0;
     font-size: 1.6rem;
-    
   }
 
   .top-fram #img-svg {
@@ -688,7 +687,6 @@ main {
 
   .top-fram #img-svg ul {
     margin-bottom: 2rem;
-    
   }
 
   .top-fram .bb {
@@ -698,7 +696,7 @@ main {
   }
 
   .buts {
-    width:56rem;
+    width: 56rem;
     height: 36rem;
     padding-top: 25rem;
   }
@@ -746,7 +744,7 @@ main {
   #form-section p {
     font-size: 1.6rem;
     width: 38%;
-    margin: 0rem auto;
+    margin: 0 auto;
   }
 
   .bs {
