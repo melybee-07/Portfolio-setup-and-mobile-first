@@ -1,33 +1,30 @@
 html {
   font-size: 10px;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  margin-top: 3.2rem;
+  margin-top: 2rem;
 }
 
 #mylogo {
-  width: 7.6rem;
-  height: 2rem;
   font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 2rem;
   color: #6070ff;
   text-decoration: none;
-  margin-left: 5rem;
   animation: animate 1s;
 }
 
@@ -46,6 +43,7 @@ nav {
   cursor: pointer;
   height: 1.25rem;
   display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   margin-right: 4rem;
@@ -53,7 +51,6 @@ nav {
 
 #navigation-bar {
   display: flex;
-  display: none;
   justify-content: space-between;
   align-items: center;
   margin-right: 5.5rem;
@@ -63,7 +60,7 @@ nav {
   text-decoration: none;
   color: #344563;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 2rem;
   margin: 1.5rem;
   padding: 1.5rem;
@@ -89,12 +86,11 @@ nav {
 }
 
 #sec1 {
-  width: 100%;
   height: 50rem;
   background: #fff;
-  background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-image: url("./img4/Header\ bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding: 2.5rem;
   margin-top: 0;
 }
@@ -104,7 +100,6 @@ nav {
   height: 10rem;
   font-size: 3.6rem;
   color: #172b4d;
-  width: 100%;
   line-height: 4.4rem;
   padding-top: 6rem;
 }
@@ -119,7 +114,6 @@ nav {
 }
 
 #sec1 p {
-  width: 100%;
   height: 12rem;
   font-weight: 400;
   font-size: 1.6rem;
@@ -250,11 +244,8 @@ nav {
 }
 
 .frame span {
-  width: 5.5rem;
-  height: 1.6rem;
   font-weight: 600;
   font-size: 1.3rem;
-  line-height: 1.6rem;
   color: #7a869a;
   margin-left: 2rem;
 }
@@ -305,34 +296,35 @@ nav {
 
 #sec3 {
   width: 100%;
-  height: 60rem;
+  height: 70rem;
   background: #fff;
   padding: 2.5rem;
   margin-top: 0;
+  margin-bottom: 20rem;
 }
 
 #sec3 h2 {
   font-weight: 700;
   font-size: 4rem;
   color: #172b4d;
-  width: 100%;
   line-height: 5.2rem;
   padding-top: 5.2rem;
   margin-bottom: 0;
 }
 
 #sec3 p {
-  width: 100%;
-  height: 14.6rem;
+  height: 14rem;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 2.4rem;
   color: #344563;
+  margin-bottom: 0;
+  padding-right: 4rem;
 }
 
 #sec3 .bb {
   margin-left: 0;
   margin-top: 0;
+  margin-bottom: 12rem;
 }
 
 .buts {
@@ -363,6 +355,7 @@ nav {
   margin: 1.2rem;
   padding-bottom: 1rem;
   background-color: #f7f7f9;
+  width: 85%;
 }
 
 .divbut span {
@@ -380,13 +373,14 @@ main {
 }
 
 #form-section {
-  height: 77.9rem;
-  padding-top: 5rem;
-  background-color: #6070ff;
-  background-image: url("./image-sec-form/contact\ form\ shapes-mobile@2x.svg");
+  height: 66rem;
   width: 100%;
+  padding-top: -1rem;
+  background-color: #6070ff;
+  background-image: url("./img4/contact\ form-\ background-shape-desktop.svg");
+  background-image: url("./img4/contact\ form\ background\ shapes@2x.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,8 +389,7 @@ main {
 
 #form-section h2 {
   font-weight: 700;
-  font-size: 4rem;
-  line-height: 5.2rem;
+  font-size: 3rem;
   color: #fff;
   text-align: center;
   padding-top: 6rem;
@@ -405,12 +398,15 @@ main {
 
 #form-section p {
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #ebebff;
-  padding: 2rem;
-  padding-top: 0;
+  padding: 1.6rem;
+  margin-top: -2.5rem;
+}
+
+.bs {
+  margin-top: -1.5rem;
 }
 
 .bs input {
@@ -421,6 +417,7 @@ main {
   height: 3rem;
   color: #172b4d;
   padding-left: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 .bs textarea {
@@ -428,14 +425,14 @@ main {
   border-radius: 4px;
   background: #fff;
   width: 30rem;
-  height: 15rem;
+  height: 13rem;
   color: #172b4d;
   padding-left: 1.5rem;
   padding-top: 1.5rem;
 }
 
 .bs button {
-  margin-top: 0;
+  margin-top: -1rem;
   margin-left: 1rem;
   color: #5766ea;
 }
@@ -461,25 +458,18 @@ main {
   display: none;
 }
 
+/* -------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 76.8rem) {
-  html {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  body {
-    width: 100%;
-  }
-
   nav {
-    width: 100%;
-    margin-top: -10rem;
-    height: 10rem;
+    margin-top: 0;
+    height: 6rem;
     position: fixed;
   }
 
   #mylogo {
     font-size: 2rem;
+    margin-left: 7rem;
   }
 
   #humberger-bottun {
@@ -495,7 +485,7 @@ main {
     width: 85%;
     background-image: url("./img4/Header\ bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90%;
     background-position: center;
     margin: 10rem auto;
     height: 35rem;
@@ -504,9 +494,9 @@ main {
   #sec1 h1 {
     font-size: 3.9rem;
     margin-left: 22.4rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     line-height: 4.5rem;
-    margin-bottom: 0;
+    margin-bottom: 5rem;
   }
 
   .left-block p {
@@ -586,7 +576,7 @@ main {
   }
 
   .left-block {
-    margin-top: -1rem;
+    margin-top: -2rem;
 
     /* margin-left: 80rem; */
   }
@@ -667,10 +657,9 @@ main {
 
   #sec3 p {
     font-size: 1.6rem;
-    width: 48rem;
     padding-right: 1.6rem;
     line-height: 2.4rem;
-    height: 10rem;
+    height: 14rem;
   }
 
   .top-fram #connect {
@@ -739,7 +728,7 @@ main {
 
   #form-section h2 {
     font-size: 3rem;
-    margin-top: -4rem;
+    margin-top: 3rem;
     margin-bottom: 0;
   }
 
@@ -771,16 +760,177 @@ main {
     box-shadow: 0 8px 16px #d7dbf73d;
     border-color: #061319;
   }
+}
 
-  #user-name-label {
+/* --------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 76.8rem) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  nav {
+    padding-top: 1rem;
+  }
+
+  #mylogo {
+    margin-left: 3.5rem;
+    font-size: 1.8rem;
+  }
+
+  #humberger-bottun {
+    display: flex;
+  }
+
+  #navigation-bar {
     display: none;
   }
 
-  #user-email-label {
-    display: none;
+  #sec1 {
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+    background-image: url("./image/header-shapes\ mobile@2x.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin-top: 0;
   }
 
-  #user-message-label {
-    display: none;
+  #sec1 h1 {
+    font-size: 3rem;
+    padding-top: 6rem;
+    padding-right: 8rem;
+    padding-left: 1rem;
+    line-height: 3.2rem;
+  }
+
+  .left-block p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  #sec1 p {
+    margin-top: -1rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    line-height: 1.7rem;
+  }
+
+  #connect {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+  }
+
+  .left-block ul {
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 3rem;
+  }
+
+  #img-svg ul {
+    padding-left: 1rem;
+  }
+
+  .left-block img {
+    margin-right: -1.8rem;
+    margin-left: 1rem;
+  }
+
+  #img-svg img {
+    width: 1.6rem;
+  }
+
+  #sec2 {
+    padding: 10rem, 0;
+  }
+
+  .work-card {
+    width: 80%;
+    height: 50rem;
+    margin-bottom: 6rem;
+    margin-left: -3.5rem;
+  }
+
+  .img-project {
+    width: 80%;
+    height: 45rem;
+    padding-left: 2rem;
+    margin-left: 0.6rem;
+  }
+
+  .left-block {
+    margin-left: -2rem;
+  }
+
+  .left-block h2 {
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .frame span {
+    font-size: 1.2rem;
+  }
+
+  .left-block .bb {
+    font-size: 1.4rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 5rem;
+  }
+
+  #sec3 h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 0;
+  }
+
+  #sec3 p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin-bottom: 0;
+  }
+
+  #sec3 .bb {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 12rem;
+    padding: 1rem 0.5rem;
+  }
+
+  #form-section h2 {
+    font-size: 2.5rem;
+    padding-bottom: 0;
+  }
+
+  #form-section p {
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    line-height: 2rem;
+  }
+
+  .bs {
+    margin-top: -3rem;
+  }
+
+  .bs input {
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: -9rem;
+  }
+
+  .bs textarea {
+    width: 25rem;
+    height: 10rem;
+    margin-bottom: 0;
+  }
+
+  .bs button {
+    padding: 0.6rem 0.9rem;
   }
 }
+
+/* ----------------------------------------------------------------------------------------------- */
