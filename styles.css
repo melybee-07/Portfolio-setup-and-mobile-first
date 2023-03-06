@@ -782,24 +782,27 @@ main {
   .humberger-bottun {
     display: flex;
   }
-    .humberger-bottun.active .ico:nth-child(2){
-      opacity: 0;
-    }
-        .humberger-bottun.active .ico:nth-child(1) {
-          transform: translate(0.8rem) rotate(45deg);
-          background-color: white;
-        }
-                .humberger-bottun.active .ico:nth-child(3) {
-                  transform: translate(-0.8rem) rotate(-45deg);
-                  background-color: white;
-                  margin-left: 1.5rem;
-                  margin-top: -2.4rem;
-                }
+
+  .humberger-bottun.active .ico:nth-child(2) {
+    opacity: 0;
+  }
+
+  .humberger-bottun.active .ico:nth-child(1) {
+    transform: translate(0.8rem) rotate(45deg);
+    background-color: white;
+  }
+
+  .humberger-bottun.active .ico:nth-child(3) {
+    transform: translate(-0.8rem) rotate(-45deg);
+    background-color: white;
+    margin-left: 1.5rem;
+    margin-top: -2.4rem;
+  }
 
   .navigation-bar {
     position: fixed;
     left: -100%;
-    top: 0px;
+    top: 0;
     gap: 0;
     flex-direction: column;
     align-items: flex-start;
@@ -810,16 +813,16 @@ main {
     height: 100vh;
     transition: 0.3s;
   }
-    .navigation-bar a {
-color: #FFFFFF;
-  font-size: 2.4rem;
-  margin-right: 12rem;
-  
-  
-    }
-    .navigation-bar.active{
-      left: 0;
-    }
+
+  .navigation-bar a {
+    color: #fff;
+    font-size: 2.4rem;
+    margin-right: 12rem;
+  }
+
+  .navigation-bar.active {
+    left: 0;
+  }
 
   #sec1 {
     width: 100%;
