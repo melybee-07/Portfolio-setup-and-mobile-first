@@ -683,7 +683,8 @@ main {
   .top-fram .bb {
     width: 19.2rem;
     height: 5.6rem;
-    padding: auto;
+
+    /* padding: auto; */
   }
 
   .buts {
@@ -880,9 +881,9 @@ main {
     width: 1.6rem;
   }
 
-  #sec2 {
+  /* #sec2 {
     padding: 10rem, 0;
-  }
+  } */
 
   .work-card {
     width: 80%;
