@@ -215,9 +215,6 @@ nav {
   width: 28rem;
   height: 20rem;
   border-radius: 0.8rem;
-
-  /* margin: 1.5rem;
-  padding: 1.6rem 0; */
   margin-top: 1.5rem;
   margin-left: 3.5rem;
   margin-bottom: 1rem;
@@ -577,8 +574,6 @@ main {
 
   .left-block {
     margin-top: -2rem;
-
-    /* margin-left: 80rem; */
   }
 
   .left-block h2 {
@@ -683,8 +678,6 @@ main {
   .top-fram .bb {
     width: 19.2rem;
     height: 5.6rem;
-
-    /* padding: auto; */
   }
 
   .buts {
@@ -887,9 +880,7 @@ main {
     width: 1.6rem;
   }
 
-  /* #sec2 {
-    padding: 10rem, 0;
-  } */
+ 
 
   .work-card {
     width: 80%;
