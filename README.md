@@ -118,17 +118,12 @@ Install this project with:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Melissa Mazir**
 
 - GitHub: [@melybee-07](https://github.com/melybee-07)
 - Twitter: [@mazir_melissa](https://twitter.com/mazir_melissa)
 - LinkedIn: [melissa mazir](https://www.linkedin.com/in/melissa-mazir-172574223/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

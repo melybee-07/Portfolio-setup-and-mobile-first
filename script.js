@@ -1,14 +1,20 @@
-const humberger = document.querySelector('.humberger-bottun');
-const navbar = document.querySelector('.navigation-bar');
+const Humberger = document.querySelector('.humberger-bottun');
+const Navbar = document.querySelector('.navigation-bar');
 
 // script to activate the humberger button once clicked.
-humberger.onclick = function () {
-  humberger.classList.toggle('active');
-  navbar.classList.toggle('active');
-};
+
+function humbergerfunction() {
+  Humberger.classList.toggle('active');
+  Navbar.classList.toggle('active');
+}
+
+Humberger.addEventListener('click', humbergerfunction);
 
 // Script to activate the nav bar once clicked
-navbar.onclick = function () {
-  humberger.classList.remove('active');
-  navbar.classList.remove('active');
-};
+
+function navbarfunction() {
+  Humberger.classList.remove('active');
+  Navbar.classList.remove('active');
+}
+
+Navbar.addEventListener('click', navbarfunction);
