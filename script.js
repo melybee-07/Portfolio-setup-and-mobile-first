@@ -14,7 +14,12 @@ Humberger.addEventListener('click', humbergerfunction);
 
 // Script to activate the nav bar once clicked
 
+function navbarfunction(){
+  Humberger.classList.remove('active');
+  Navbar.classList.remove('active');
+}
 
+Navbar.addEventListener('click', navbarfunction);
 
 
 
