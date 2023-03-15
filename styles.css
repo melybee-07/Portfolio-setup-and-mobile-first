@@ -113,6 +113,13 @@ nav {
   margin-left: 2rem;
 }
 
+.second-part p {
+  color: #344563;
+  font-size: 1.5rem;
+  margin-right: 0;
+  width: 90%;
+}
+
 #sec1 p {
   height: 12rem;
   font-weight: 400;
@@ -150,6 +157,15 @@ nav {
   padding: 0;
 }
 
+.third-part ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  width: 50%;
+  margin-left: -2rem;
+}
+
 #img-svg ul {
   display: flex;
   flex-direction: row;
@@ -177,6 +193,15 @@ nav {
 .bs li {
   padding: 1rem;
   text-align: start;
+}
+
+.third-part li {
+  color: #6070ff;
+  font-size: 1.2rem;
+  background: #ebebff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 #img-svg li {
@@ -291,6 +316,121 @@ nav {
   border-bottom: #5e6c84;
 }
 
+.modal-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(193, 199, 208, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.popup-box {
+  background-color: white;
+  width: 60%;
+  margin: 3% auto;
+  padding: 2%;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+}
+
+.close-btn {
+  color: #67798e;
+  font-size: 1.6rem;
+  float: right;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.popup-box h2 {
+  font-size: 3rem;
+  color: #091e42;
+  margin-bottom: 1rem;
+}
+
+.popup-box .frame {
+  margin-left: -2rem;
+  margin-bottom: 0.5rem;
+}
+
+.detbut span {
+  width: 25.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1.8rem 0;
+}
+
+.divbut span {
+  margin-left: 1.5rem;
+}
+
+.popup-box .frame span {
+  font-size: 1.5rem;
+}
+
+.img-popup {
+  width: 100%;
+  height: 50vh;
+}
+
+.second-part {
+  display: flex;
+}
+
+.third-part {
+  width: 40%;
+}
+
+.popup-box hr {
+  border: 1px solid #ebecf0;
+  width: 95%;
+  margin-left: 2rem;
+}
+
+.popup-box .button-class {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.popup-box .button-class a {
+  font-size: 1.4rem;
+  width: 10rem;
+  height: 2.5rem;
+  text-decoration: none;
+  color: #396df2;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+.popup-box .button-class a:hover {
+  color: white;
+}
+
+.gg img {
+  margin-top: 3rem;
+  top: 0.5rem;
+  left: 0.9rem;
+}
+
+.popup-box .button-class img {
+  margin: -0.2rem;
+  width: 1.4rem;
+}
+
+.img-popup-mobile {
+  display: none;
+}
+
 #sec3 {
   width: 100%;
   height: 70rem;
@@ -339,13 +479,6 @@ nav {
   display: flex;
 }
 
-.detbut span {
-  width: 25.5rem;
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 1.8rem 0;
-}
-
 .divbut {
   display: flex;
   align-items: center;
@@ -353,16 +486,6 @@ nav {
   padding-bottom: 1rem;
   background-color: #f7f7f9;
   width: 85%;
-}
-
-.divbut span {
-  margin-left: 1.5rem;
-}
-
-.gg img {
-  margin-top: 3rem;
-  top: 0.5rem;
-  left: 0.9rem;
 }
 
 main {
@@ -847,6 +970,11 @@ main {
     line-height: 2rem;
   }
 
+  .second-part p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
   #sec1 p {
     margin-top: -1rem;
     font-weight: 400;
@@ -867,6 +995,15 @@ main {
     margin-left: 3rem;
   }
 
+  .third-part ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    width: 50%;
+    margin-left: -2rem;
+  }
+
   #img-svg ul {
     padding-left: 1rem;
   }
@@ -874,6 +1011,10 @@ main {
   .left-block img {
     margin-right: -1.8rem;
     margin-left: 1rem;
+  }
+
+  .popup-box .button-class img {
+    width: 1.1rem;
   }
 
   #img-svg img {
@@ -912,6 +1053,71 @@ main {
     font-size: 1.4rem;
     padding: 0.7rem 1rem;
     margin-bottom: 5rem;
+  }
+
+  .popup-box {
+    width: 80%;
+    margin: 8% auto;
+    padding: 4%;
+  }
+
+  .close-btn {
+    padding-right: 1rem;
+  }
+
+  .popup-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .popup-box .frame span {
+    font-size: 1.3rem;
+  }
+
+  .second-part {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1rem;
+  }
+
+  .third-part {
+    width: 100%;
+  }
+
+  .third-part li {
+    color: #6070ff;
+    font-size: 1.2rem;
+    background: #ebebff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .seconf-line {
+    display: none;
+  }
+
+  .popup-box hr {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .popup-box .button-class a {
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+    padding-left: 2.3rem;
+    margin-left: 0.7rem;
+  }
+
+  .img-popup {
+    display: none;
+  }
+
+  .img-popup-mobile {
+    display: flex;
+    width: 100%;
   }
 
   #sec3 h2 {
