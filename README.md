@@ -124,6 +124,12 @@ Install this project with:
 - LinkedIn: [melissa mazir](https://www.linkedin.com/in/melissa-mazir-172574223/)
 
 
+👤 **Tasnim Ahmed Chowdhury**
+
+- GitHub: [@tasnimchy96](https://github.com/tasnimchy96)
+- Twitter: [@tasnimchy96](https://twitter.com/tasnimchy96)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
