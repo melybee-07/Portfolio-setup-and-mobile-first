@@ -195,8 +195,28 @@ btnClick3.addEventListener('click', () => {
 // validation form
 
 const formValidation = document.getElementById('myForm');
+const nameValidation = document.getElementById('user-id-name');
 const emailValidation = document.getElementById('user-id-email');
+const messageValidation = document.getElementById('user-is-message');
 const divValidation = document.getElementById('error-div');
+
+// retrieve existing data from local storage or initialize empty object
+let formData = JSON.parse(localStorage.getItem('formData')) || {};
+
+// pre-fill input fields with existing data
+nameValidation.value = formData.name || '';
+emailValidation.value = formData.email || '';
+messageValidation.value = formData.message || '';
+
+// add event listener to save data to local storage
+formValidation.addEventListener('input', () => {
+  formData = {
+    name: nameValidation.value,
+    email: emailValidation.value,
+    message: messageValidation.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
 
 formValidation.addEventListener('submit', (event) => {
   event.preventDefault();
