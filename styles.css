@@ -569,7 +569,8 @@ main {
 label {
   display: none;
 }
-#error-div{
+
+#error-div {
   color: rgb(163, 3, 3);
   font-size: 1.4rem;
   margin-top: 1.5rem;
@@ -577,7 +578,7 @@ label {
   background-color: rgb(242, 176, 201);
   border-radius: 5px;
   display: none;
-} 
+}
 
 /* -------------------------------------------------------------------------------------------------- */
 

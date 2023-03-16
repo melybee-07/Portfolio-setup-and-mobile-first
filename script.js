@@ -21,11 +21,7 @@ function navbarfunction() {
 
 Navbar.addEventListener('click', navbarfunction);
 
-
-
 // -------------------------------------------------------------------------------
-
-
 
 // the popup modal
 
@@ -194,7 +190,6 @@ btnClick3.addEventListener('click', () => {
   creatCard(cardpopup4);
 });
 
-
 // -------------------------------------------------------------------------------
 
 // validation form
@@ -203,16 +198,15 @@ const formValidation = document.getElementById('myForm');
 const emailValidation = document.getElementById('user-id-email');
 const divValidation = document.getElementById('error-div');
 
-formValidation.addEventListener('submit', function(event){
-
+formValidation.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const EmailVal = emailValidation.value.trim().toLowerCase();
 
-  if(EmailVal !== emailValidation.value){
-      divValidation.innerText = 'Email must be in lower case *';
-      divValidation.style.display = 'block';
-      return;
+  if (EmailVal !== emailValidation.value) {
+    divValidation.innerText = 'Email must be in lower case *';
+    divValidation.style.display = 'block';
+    return;
   }
 
   divValidation.innerText = '';
@@ -220,5 +214,4 @@ formValidation.addEventListener('submit', function(event){
 
   // submit the form
   formValidation.submit();
-
 });
