@@ -1,3 +1,5 @@
+// mobile portfolio menu
+
 const Humberger = document.querySelector('.humberger-bottun');
 const Navbar = document.querySelector('.navigation-bar');
 
@@ -19,9 +21,14 @@ function navbarfunction() {
 
 Navbar.addEventListener('click', navbarfunction);
 
-// -----------------------------------------
+
+
+// -------------------------------------------------------------------------------
+
+
 
 // the popup modal
+
 const modalElemnt = document.querySelector('.modal-popup');
 
 function creatCard([crossbtn, headercard, CANOclass, Icon1, Devclass, Icon2, Yearclass, imageProjectCard, textExplain, Lang1, Lang2, Lang3, Lang4, Lang5, Lang6, btnbefore, Icon3, btnafter, Icon4, blancklink, githublink, imageProjectCardmobile]) {
@@ -185,4 +192,33 @@ const btnClick3 = document.querySelector('.bbCard2');
 btnClick3.addEventListener('click', () => {
   modalElemnt.style.display = 'block';
   creatCard(cardpopup4);
+});
+
+
+// -------------------------------------------------------------------------------
+
+// validation form
+
+const formValidation = document.getElementById('myForm');
+const emailValidation = document.getElementById('user-id-email');
+const divValidation = document.getElementById('error-div');
+
+formValidation.addEventListener('submit', function(event){
+
+  event.preventDefault();
+
+  const EmailVal = emailValidation.value.trim().toLowerCase();
+
+  if(EmailVal !== emailValidation.value){
+      divValidation.innerText = 'Email must be in lower case *';
+      divValidation.style.display = 'block';
+      return;
+  }
+
+  // divValidation.innerText = '';
+  // divValidation.style.display = 'none';
+
+  // // submit the form
+  // formValidation.submit();
+
 });
