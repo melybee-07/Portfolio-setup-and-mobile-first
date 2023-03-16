@@ -210,14 +210,14 @@ emailValidation.value = formData.email || '';
 messageValidation.value = formData.message || '';
 
 // add event listener to save data to local storage
-// formValidation.addEventListener('input', () => {
-//   formData = {
-//     name: nameValidation.value,
-//     email: emailValidation.value,
-//     message: messageValidation.value
-//   };
-//   localStorage.setItem('formData', JSON.stringify(formData));
-// });
+formValidation.addEventListener('input', () => {
+  formData = {
+    name: nameValidation.value,
+    email: emailValidation.value,
+    message: messageValidation.value
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
 
 formValidation.addEventListener('submit', (event) => {
   event.preventDefault();
