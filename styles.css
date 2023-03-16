@@ -566,15 +566,17 @@ main {
   background-color: #3a4ad9;
 }
 
-#user-name-label {
+label {
   display: none;
 }
 
-#user-email-label {
-  display: none;
-}
-
-#user-message-label {
+#error-div {
+  color: rgb(163, 3, 3);
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: rgb(242, 176, 201);
+  border-radius: 5px;
   display: none;
 }
 

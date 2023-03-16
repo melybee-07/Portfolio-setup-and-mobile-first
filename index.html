@@ -296,10 +296,10 @@
         </p>
       </section>
       <section class="secc bs">
-        <form action="https://formspree.io/f/xbjeokqq" method="post">
+        <form action="https://formspree.io/f/xbjeokqq" method="post" id="myForm">
           <ul>
             <li>
-              <label id="user-name-label">User name</label>
+              <label for="user-id-name">User name</label>
               <input
                 type="text"
                 name="user-name"
@@ -310,7 +310,7 @@
               />
             </li>
             <li>
-              <label id="user-email-label">E-Mail</label>
+              <label for="user-id-email">E-Mail</label>
               <input
                 type="email"
                 name="user-email"
@@ -318,9 +318,10 @@
                 placeholder="youremail@gmail.com"
                 required
               />
+              <div id="error-div"></div>
             </li>
             <li>
-              <label id="user-message-label">Message</label>
+              <label for="user-is-message">Message</label>
               <textarea
                 name="user-message"
                 id="user-is-message"
