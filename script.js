@@ -215,10 +215,10 @@ formValidation.addEventListener('submit', function(event){
       return;
   }
 
-  // divValidation.innerText = '';
-  // divValidation.style.display = 'none';
+  divValidation.innerText = '';
+  divValidation.style.display = 'none';
 
-  // // submit the form
-  // formValidation.submit();
+  // submit the form
+  formValidation.submit();
 
 });
