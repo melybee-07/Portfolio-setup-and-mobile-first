@@ -200,7 +200,6 @@ const emailValidation = document.getElementById('user-id-email');
 const messageValidation = document.getElementById('user-is-message');
 const divValidation = document.getElementById('error-div');
 
-
 // retrieve existing data from local storage or initialize empty object
 let formData = JSON.parse(localStorage.getItem('formData')) || {};
 
@@ -214,7 +213,7 @@ formValidation.addEventListener('input', () => {
   formData = {
     name: nameValidation.value,
     email: emailValidation.value,
-    message: messageValidation.value
+    message: messageValidation.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
 });
