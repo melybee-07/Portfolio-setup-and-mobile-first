@@ -236,18 +236,15 @@ formValidation.addEventListener('submit', (event) => {
   formValidation.submit();
 });
 
-
 // macking a scroll up arrow
 
 const Arrow = document.querySelector('.arrow');
 const Sect1 = document.querySelector('#sec1');
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY > Sect1.offsetHeight){
+  if (window.scrollY > Sect1.offsetHeight) {
     Arrow.style.display = 'block';
-    
+  } else {
+    Arrow.style.display = 'none';
   }
-  else {
-      Arrow.style.display = 'none';
-    }
 });
