@@ -128,6 +128,20 @@ nav {
   color: #344563;
 }
 
+.ANIME {
+  animation: slideInLeft 1s ease-in 0.2s 1 normal;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 #connect {
   cursor: pointer;
   width: 11.7rem;
@@ -137,6 +151,21 @@ nav {
   line-height: 2.4rem;
   color: #5867ee;
   text-decoration: none;
+}
+
+.AnimConect {
+  opacity: 0;
+  animation: floter 2s ease-in 1s 1 forwards;
+}
+
+@keyframes floter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .work-card ul {
@@ -208,6 +237,25 @@ nav {
   padding: 1.8rem;
   padding-left: 0;
   padding-top: 0;
+}
+
+.gg img {
+  margin-top: 3rem;
+  top: 0.5rem;
+  left: 0.9rem;
+}
+
+.popup-box .button-class img {
+  margin: -0.2rem;
+  width: 1.4rem;
+}
+
+#img-svg img {
+  transition-duration: 0.3s;
+}
+
+#img-svg img:hover {
+  transform: translateY(-7px);
 }
 
 #sec2 {
@@ -416,17 +464,6 @@ nav {
   color: white;
 }
 
-.gg img {
-  margin-top: 3rem;
-  top: 0.5rem;
-  left: 0.9rem;
-}
-
-.popup-box .button-class img {
-  margin: -0.2rem;
-  width: 1.4rem;
-}
-
 .img-popup-mobile {
   display: none;
 }
@@ -610,7 +647,7 @@ label {
     background-size: 90%;
     background-position: center;
     margin: 10rem auto;
-    height: 35rem;
+    height: 100vh;
   }
 
   #sec1 h1 {
@@ -951,7 +988,7 @@ label {
 
   #sec1 {
     width: 100%;
-    height: 50rem;
+    height: 100vh;
     background: #fff;
     background-image: url("./image/header-shapes\ mobile@2x.svg");
     background-repeat: no-repeat;
@@ -1026,7 +1063,7 @@ label {
   .work-card {
     width: 80%;
     height: 50rem;
-    margin-bottom: 6rem;
+    margin-bottom: 45%;
     margin-left: -3.5rem;
   }
 
