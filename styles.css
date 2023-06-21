@@ -468,6 +468,18 @@ nav {
   display: none;
 }
 
+.newPortfolioimage {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.newPortfolioimage:hover {
+  color: #396df2;
+}
+
 #sec3 {
   width: 100%;
   height: 70rem;
@@ -802,6 +814,11 @@ label {
 
   .card2 .img-project {
     padding-right: 2rem;
+  }
+
+  .newPortfolioimage {
+    font-size: 12px;
+    margin-left: 30px;
   }
 
   #sec3 {
@@ -1175,7 +1192,10 @@ label {
     display: flex;
     width: 100%;
   }
-
+  .newPortfolioimage {
+    font-size: 12px;
+    margin-left: 15px;
+  }
   #sec3 h2 {
     font-size: 3.5rem;
     line-height: 4rem;
